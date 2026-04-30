@@ -142,19 +142,6 @@ Trained with Adam (lr=0.0005), Huber loss, batch size 512, up to 30 epochs with 
 
 **9. Evaluation suite** — `performance_summary()`, `period_metrics()`, `trade_metrics()`, `risk_metrics()`, and `yearly_performance()` compute the full set of metrics shown in the tables above. All plots are written to `./eval_plots/`:
 
-| File | Description |
-|---|---|
-| `01_equity_curve.png` | Cumulative growth of $1, all 5 strategies |
-| `02_drawdown.png` | Underwater curve |
-| `03_rolling_sharpe.png` | 26-period rolling Sharpe |
-| `04_rolling_vol.png` | 26-period annualized vol |
-| `05_monthly_heatmap.png` | Monthly returns heatmap |
-| `06_return_dist.png` | Per-period return distribution + VaR/CVaR markers |
-| `07_turnover.png` | Turnover at every rebalance |
-| `08_exposure.png` | Gross and net exposure over time |
-| `09_attribution.png` | Sector and top-ticker P&L decomposition |
-| `10_rolling_ic.png` | Rolling Rank IC over time |
-
 ---
 
 ## Methodology notes
@@ -173,12 +160,11 @@ Trained with Adam (lr=0.0005), Huber loss, batch size 512, up to 30 epochs with 
 ├── README.md                          # this file
 ├── requirements.txt                   # Python dependencies
 ├── notebooks/
-│   └── code+eval.ipynb                # main pipeline (data → model → backtest → metrics)
-├── eval_plots/                        # auto-generated evaluation figures
+│   └── EE4904code+eval.ipynb                # main pipeline (data → model → backtest → metrics)
+├── EE4904code+eval.ipynb-Colab.pdf/                        # notebook with out put and graphs
 ├── docs/
-│   ├── Group9_Final_Presentation.pptx # final deck
-│   ├── Group9_Final_Presentation.pdf  # PDF export of the deck
-│   └── Group9_Project_Proposal.docx   # revised proposal
+│   ├── EE4904_Presentation.pptx # final deck
+│   └──  EE4904_Presentation pptx.pdf  # PDF export of the deck
 └── .gitignore
 ```
 
