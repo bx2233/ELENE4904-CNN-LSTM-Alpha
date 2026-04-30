@@ -1,4 +1,4 @@
-# Group 9 — CNN-LSTM-Attention Alpha Model on S&P 500
+# CNN-LSTM Alpha Model on S&P 500
 
 **ELENE 4904 · Statistical Learning in Quantitative Trading · Spring 2026**
 
