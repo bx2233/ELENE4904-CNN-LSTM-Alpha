@@ -161,10 +161,9 @@ Trained with Adam (lr=0.0005), Huber loss, batch size 512, up to 30 epochs with 
 ├── requirements.txt                   # Python dependencies
 ├── notebooks/
 │   ├── EE4904code+eval.ipynb                # main pipeline (data → model → backtest → metrics)
-│   └──  EE4904code+eval.ipynb-Colab.pdf/                        # notebook with out put and graphs
-├── docs/
-│   ├── EE4904_Presentation.pptx # final deck
-│   └──  EE4904_Presentation pptx.pdf  # PDF export of the deck
+│   └──  EE4904code+eval.ipynb-Colab.pdf/                        # notebook with out put and 
+├── EE4904_Presentation.pptx # final deck
+├──  EE4904_Presentation pptx.pdf  # PDF export of the deck
 └── .gitignore
 ```
 
