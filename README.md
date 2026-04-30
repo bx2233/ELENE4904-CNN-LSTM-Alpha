@@ -165,6 +165,7 @@ Trained with Adam (lr=0.0005), Huber loss, batch size 512, up to 30 epochs with 
 ├── EE4904_Presentation.pptx # final deck
 ├── EE4904_Presentation pptx.pdf  # PDF export of the deck
 ├── lstm_preds_sp500.csv
+├── get_sp500_prices.ipynb
 └── .gitignore
 ```
 
