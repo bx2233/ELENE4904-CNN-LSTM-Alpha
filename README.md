@@ -10,7 +10,7 @@ This repository contains the full code and evaluation pipeline for our final pro
 
 | Name | UNI | Role |
 |------|-----|------|
-| Beibei Xian | bx2233 | Data acquisition, feature engineering, signal-quality diagnostics, presentation |
+| Beibei Xian | bx2233 | Data acquisition, feature engineering, signal-quality diagnostics, presentation, submission |
 | Carlos Kuchenmeister | cmk2250 | Model architecture (CNN-LSTM-Attention), training pipeline, baselines, presentation |
 | Neill Gonzales | nag2177 | Backtesting engine, portfolio construction, performance metrics, attribution |
 | Anurag Chatterjee | ac5929 | Project framing, agenda structuring, write-up review |
